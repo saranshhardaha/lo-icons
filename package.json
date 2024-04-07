@@ -1,0 +1,19 @@
+{
+	"name": "lo-icons",
+	"version": "1.0.0",
+	"main": "index.ts",
+	"license": "MIT",
+	"scripts": {
+		"dev": "node build.js && nodemon index.ts",
+		"build-icons": "node build.js",
+		"start": "node index.ts"
+	},
+	"dependencies": {
+		"dotenv": "^16.4.5",
+		"express": "^4.19.2"
+	},
+	"devDependencies": {
+		"@types/node": "^20.12.5",
+		"nodemon": "^3.1.0"
+	}
+}
